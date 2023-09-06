@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Carlos Santamaria" />
+    <meta name="description" content="Web Developer Portfolio" />
+    <meta name="keywords" content="HTML, CSS , JavaScript, React" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <link
+      rel="shortcut icon"
+      href="./imgs/portfololio-icon.png"
+      type="image/x-icon"
+    />
+    <title>Carlos Santamaria/Portfolio</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header-Nav -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbar-toggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="/imgs/portfololio-icon.png"
+              width="75"
+              alt="Website logo"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#About-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section  -->
+    <section class="hero alight-items-stretch">
+      <div class="hero-principal">
+        <img
+          class="hero-img"
+          src="/imgs/profile-picture.png"
+          alt="profile picture"
+        />
+        <h1>Hello, I'm Carlos Santamaria</h1>
+        <h2><i>Front-End Web Dev</i></h2>
+      </div>
+      <div class="hero-footer">
+        <img
+          class="hero-footer-img img-fluid"
+          src="imgs/hero-footer-img.svg"
+          alt="laptop, html, css y react logos"
+        />
+      </div>
+    </section>
+    <!-- About me section -->
+    <section id="About-me" class="About-me dark-section">
+      <div class="container">
+        <h2 class="about-me-tittle-section">Meet Carlos Santamaria</h2>
+        <p class="text-section">
+          Carlos santamaria is a dedicated Front-end Dev from El Salvador that
+          enjoy learning. He had plenty of experience in the CS and Tech support
+          area, but he is curtly working hard to become a Full-stack dev. One of
+          his strongest is he never gives up until he finishes what he had
+          started.<br />
+          <br />
+          Carlos believes that people should work on developing their
+          professional skills and learning new things all the time, and that is
+          why he decided to be a web dev because You never stop learning new
+          technologies as a Web dev.
+        </p>
+      </div>
+    </section>
+    <!-- my experience section -->
+    <section class="experience-section white-section text-center">
+      <h3 class="experience-title">TECHNICAL SKILLS</h3>
+      <p class="description-section">
+        Techlogies used to create web-pages with responsive design
+      </p>
+      <div class="container text-center">
+        <div class="row">
+          <!-- Front-end section -->
+          <div class="colum col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <h4>Front-End</h4>
+            <span class="badge rounded-pill text-bg-primary">HTML</span>
+            <span class="badge rounded-pill text-bg-primary">CSS</span>
+            <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+          </div>
+          <!-- back-end section -->
+          <div class="colum col-12 col-md-4">
+            <i class="bi bi-pc-display"></i>
+            <h4>Back-End</h4>
+            <span class="badge rounded-pill text-bg-primary">NodeJS</span>
+          </div>
+          <!-- Frame-works section -->
+          <div class="colum col-12 col-md-4">
+            <i class="bi bi-bootstrap"></i>
+            <h4>FrameWorks</h4>
+            <span class="badge rounded-pill text-bg-primary">Bootstrap</span>
+            <span class="badge rounded-pill text-bg-primary">React</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My project section -->
+    <section id="projects" class="projects white-section">
+      <h5 class="dark-tittle-section">My projects</h5>
+      <p class="description-section text-center">
+        These are some of the projects I've made
+      </p>
+      <!-- projects gallery -->
+      <div class="container text-center projects-container">
+        <div class="row">
+          <!-- Project #1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="my-projects">
+              <img src="/imgs/project-1.png" alt="project 1" />
+              <div class="overlay">
+                <p>Project #1</p>
+                <div class="icons-conteiner">
+                  <a
+                    href="https://github.com/carlos-Santa-maria/my-task-list"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://my-task-list-cs.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project #2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="my-projects">
+              <img src="/imgs/project-2.png" alt="project 1" />
+              <div class="overlay">
+                <p>Project #2</p>
+                <div class="icons-conteiner">
+                  <a
+                    href="https://github.com/carlos-Santa-maria/motivational-phrases-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://random-motivational-phrases-cs.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project #3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="my-projects">
+              <img src="/imgs/project-3.png" alt="project 1" />
+              <div class="overlay">
+                <p>Project #3</p>
+                <div class="icons-conteiner">
+                  <a
+                    href="https://github.com/carlos-Santa-maria/netflix-clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://netflix-clone1-1.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project #4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="my-projects">
+              <img src="/imgs/project-4.png" alt="project 1" />
+              <div class="overlay">
+                <p>Project #4</p>
+                <div class="icons-conteiner">
+                  <a
+                    href="https://github.com/carlos-Santa-maria/online-calculator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://online-calculator-cs.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project #5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="my-projects">
+              <img src="/imgs/project-5.png" alt="project 1" />
+              <div class="overlay">
+                <p>Project #5</p>
+                <div class="icons-conteiner">
+                  <a
+                    href="https://github.com/carlos-Santa-maria/kentuky-landingpage-clone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://kfc-clone-cs.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project #6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="my-projects">
+              <img src="/imgs/project-6.png" alt="project 1" />
+              <div class="overlay">
+                <p>Project #6</p>
+                <div class="icons-conteiner">
+                  <a
+                    href="https://github.com/carlos-Santa-maria/guessing-game"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://guessthenumbergame-by-cs.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://github.com/carlos-Santa-maria?tab=repositories"
+        target="_blank"
+        rel="noopener no"
+      >
+        <button type="button" class="btn btn-info">
+          More Projects<i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- contact me section -->
+    <section id="contact-section" class="contact-section dark-section">
+      <div class="container">
+        <div
+          class="container text-center rectangle d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 white-tittle-section">REACH ME !</div>
+            <div class="col-12 col-md-4 description">
+              Please, reach me to work together and to make your ideal website
+              becomes true.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:santamaria.carlos0023@gmail.com">
+                <button type="button">
+                  Contact Me
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer
+      class="dark-section d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-icon"
+        src="/imgs/portfololio-icon.png"
+        alt="portfololio-icon"
+      />
+      <p class="footer-text text-center">
+        I'm continuously learning new technologies to improve my work
+      </p>
+      <div class="social-network-container">
+        <a
+          href="https://www.linkedin.com/in/carlos-santamaria-58aa02280/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="mailto:santamaria.carlos0023@gmailcom"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope-plus-fill"></i>
+        </a>
+        <a
+          href="https://github.com/CarlosSanta23"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+      <div class="copyright">Made by Carlos Santamaria (2023) &#169;</div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
